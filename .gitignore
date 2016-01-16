@@ -1,2 +1,5 @@
 MANIFEST
 dist/
+example/out
+/example/storage/
+*.pyc
