@@ -78,6 +78,25 @@ The Runner will create 2 directories:
 *   `out/` containing solution files (`test00.ans`, `test01.ans`, `test02.ans`)
 *   `storage/` contaning temporary files used by Tireless Runner.
 
+File tree will look like this:
+```
+.
+├── __init__.pyc
+├── in
+│   ├── test00.in
+│   ├── test01.in
+│   └── test02.in
+├── out
+│   ├── test00.ans
+│   ├── test01.ans
+│   └── test02.ans
+├── solution.py
+└── storage
+    ├── test00.res
+    ├── test01.res
+    └── test02.res
+```
+
 This is very trivial problem so Tireless Runner will probably find the best solutions for given test cases.
 
 You can find this example's source code under [this path](example/).
